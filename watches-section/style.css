@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  position: relative;
+  transition: all 1s ease-out;
+  top: -50px;
+}
+.hide {
+  background-color: rgba(203, 238, 255, 0.479);
+  padding: 0px 90px;
+  position: relative;
+  top: 0px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav ul img {
+  width: 47px;
+  height: 30px;
+  margin-right: 10px;
+}
+nav ul li {
+  list-style: none;
+  padding: 4px 8px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(20, 19, 19);
+  font-size: 17px;
+  font-family: syne;
+  font-weight: bold;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  background: url(imagess.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(40%);
+  height: 80vh;
+  background-position: center;
+}
+.text h1 {
+  font-size: 40px;
+  text-shadow: 2px 2px 2px white;
+  font-family: syne;
+  padding: 10px 0px;
+  font-weight: bold;
+  color: rgb(20, 19, 19);
+}
+.text h2 {
+  font-size: 30px;
+  text-shadow: 2px 2px 2px white;
+  font-family: syne;
+  padding: 10px 0px;
+  font-weight: bold;
+  color: rgb(29, 28, 28);
+}
+.text button {
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 5px 50px;
+  background-color: transparent;
+  border: 2px solid rgb(214, 214, 214);
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+  margin: 10px 0px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.text button:hover {
+  color: black;
+  background-color: rgb(214, 214, 214);
+}
+.text h3 {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px white;
+  font-family: syne;
+  font-weight: bold;
+  padding: 10px 0px;
+  color: rgb(20, 19, 19);
+}
+.text {
+  position: absolute;
+  top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  background-color: #dcdadb;
+}
+.texts h3 {
+  font-size: 28px;
+  text-shadow: 2px 2px 2px white;
+  font-family: syne;
+  font-weight: bold;
+  padding: 10px 0px;
+  color: rgb(20, 19, 19);
+}
+.texts {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.image img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 0px 50px;
+}
+.omg {
+  background: url(main.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  padding: 30px 10px;
+  justify-content: center;
+}
+.omg button {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 50px;
+  background-color: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  font-size: 26px;
+  margin: 10px 0px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.omg button:hover {
+  color: black;
+  background-color: rgb(228, 218, 218);
+}
+
+.flex .a {
+  text-decoration: dashed;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 30px 10px;
+}
+.watch {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 30px 0px;
+  box-shadow: 0px 0px 10px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.watch img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0px 50px;
+}
+#pre {
+  font-size: 50px;
+  color: royalblue;
+  font-family: syne;
+  margin: 30px 40px;
+}
+.watch h3 {
+  font-size: 22px;
+  text-shadow: 2px 2px 2px white;
+  font-family: syne;
+  font-weight: bold;
+  color: rgb(20, 19, 19);
+  margin: 0px 40px;
+}
+
+.watch h5 {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px white;
+  font-family: syne;
+  font-weight: bold;
+  color: rgb(20, 19, 19);
+  margin: 0px 40px;
+}
+.black {
+  color: rgb(54, 53, 53);
+}
+
+.watch hr {
+  font-size: 22px;
+  text-shadow: 2px 2px 2px white;
+  font-family: syne;
+  font-weight: bold;
+  color: rgb(20, 19, 19);
+  margin: 0px 40px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
