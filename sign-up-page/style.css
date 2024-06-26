@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: syne;
+  min-height: 100vh;
+  background: url(bg1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hide {
+  position: absolute;
+  left: -100px;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  background-color: #d7d4d849;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+  width: 400px;
+  transition: all 1.9s ease-out;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: syne;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: syne;
+  font-weight: 720;
+  text-shadow: 2px 2px 2px white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: syne;
+  font-weight: 710;
+  border-radius: 3px;
+  background-color: rgba(230, 229, 229, 0.87);
+}
+
+button {
+  background-color: #43b2e6;
+  color: white;
+  font-family: syne;
+  padding: 5px 100px;
+  box-shadow: 0px 0px 10px black;
+  border: none;
+  font-size: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.op {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  background-color: #195e86;
+}
