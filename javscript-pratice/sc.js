@@ -234,14 +234,37 @@ console.table(myCourses)
 //  let [a, b , ...rest]= arr
 //   console.log(a,b,...rest)
 
-let arr = [2, 4, 5, 6, 8, 3, 5, 6];
+// let arr = [2, 4, 5, 6,3, 5, 6];
 
-// let [a , , ...rest] =arr
-//  console.log(a, rest)
+// // let [a , , ...rest] =arr
+// //  console.log(a, rest)
 
-// let [a, b,...rest] = arr.filter((num)=> num > 5)
+// // let [a, b,...rest] = arr.filter((num)=> num > 5)
 
-let { a, b } = {
-  a: 1,
-  b: 4,
-};
+// * for objects
+// let { a, b } = {
+//   a: 1,
+//   b: 4,
+// };
+// console.log(a ,b)
+
+// let obj2 = {...arr}
+// console.log(obj2)
+
+// function sum (v1,v2,v3,v4,v5,v9){
+//  return v1+v2+v3+v4-v5**v9
+// }
+// console.log(sum(...arr))
+// let obj2 ={
+//   nAme:"tanish ",
+//   class:12,
+//   address:"rattangarh",
+//   phone: 9876543210,
+//   hobbies:["reading","painting","cooking"],
+//   subjects:["maths","science","english"],
+//   isStudent:true,
+//   score:95,
+//   grade:"A+"
+// }
+// let h = {...obj2 ,nAme:"john",score:10}
+// console.table(h)
