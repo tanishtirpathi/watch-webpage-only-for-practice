@@ -268,3 +268,20 @@ console.table(myCourses)
 // }
 // let h = {...obj2 ,nAme:"john",score:10}
 // console.table(h)
+
+// ! only for checking the node work in terinal
+//? firstly write "node then file relative pathe just like for this it have javscript-pratice\sc.js"
+
+// let obj3 = {
+//   name: "tanish",
+//   class: 12,
+//   address: "rattangarh",
+//   phone: 9876543210,
+//   hobbies: ["reading", "painting", "cooking"],
+//   subjects: ["maths", "science", "english"],
+//   isStudent: true,
+//   score: 95,
+//   grade: "A+",
+//   id: 8945570,
+// };
+// console.table(obj3);
