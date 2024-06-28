@@ -227,3 +227,21 @@ const myCourses = books.filter( (genre)=>
 
 console.table(myCourses)
 })*/
+
+// ! spreed things in javascrpts
+
+//   let arr = [ 3,5,23,23,23,24,234,23,23,5]
+//  let [a, b , ...rest]= arr
+//   console.log(a,b,...rest)
+
+let arr = [2, 4, 5, 6, 8, 3, 5, 6];
+
+// let [a , , ...rest] =arr
+//  console.log(a, rest)
+
+// let [a, b,...rest] = arr.filter((num)=> num > 5)
+
+let { a, b } = {
+  a: 1,
+  b: 4,
+};
