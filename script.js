@@ -6,5 +6,5 @@ document.addEventListener("DOMContentLoaded", () => {
   video.classList.add("videoo");
 });
 watch.addEventListener("click", () => {
-  window.location.href = "";
+  window.location.href = "sign-up-pageindex.html";
 });
