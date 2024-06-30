@@ -11,8 +11,11 @@ const form = document.forms["sign-up form"];
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
-    .then((response) => alert("Form submitted successfully!"))
+    .then((response) =>
+      alert("thank you sir for visiting our website form is ubmit successfuly!")
+    )
 
     .catch((error) => console.error("Error!", error.message));
   form.reset();
+  window.location.href = "/index.html";
 });
